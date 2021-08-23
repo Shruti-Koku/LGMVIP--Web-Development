@@ -1,0 +1,22 @@
+.loader {
+    /* background-color: turquoise; */
+    border: 15px solid rgb(77, 11, 73);
+    border-top: 15px solid rgb(85, 77, 77);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 10s linear infinite;
+    transform: translate(-10%, -10%);
+    position: absolute;
+    left: 50%;
+    top: 40%;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
